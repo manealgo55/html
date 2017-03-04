@@ -1,0 +1,9 @@
+.encabezado{
+    border-style:groove;
+    border-width:10px;
+    border-color: blueviolet;
+    padding-left: 50px;
+}
+.fondo{
+    background-color: teal
+}
