@@ -1,9 +1,18 @@
 .encabezado{
     border-style:groove;
     border-width:10px;
-    border-color: blueviolet;
+    border-color:darkred;
     padding-left: 50px;
 }
-.fondo{
-    background-color: teal
+.colorletra{
+    color: white;
+    text-decoration: none;
 }
+.fondo{
+   
+    background-image:url("./imagenes/fodos/textura1.jpg");
+    }
+   
+
+
+
