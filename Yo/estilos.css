@@ -10,9 +10,38 @@
 }
 .fondo{
    
-    background-image:url("./imagenes/fodos/textura1.jpg");
+    background-color: black;
     }
-   
-
-
+ #contenedor {
+  width: auto;
+     height: auto;
+     overflow: hidden;
+     background-image:url("./imagenes/fondos/textura1.jpg");
+    
+}
+#cabecera {
+    margin: 0;
+    line-height: 90px;
+    align-content: center;
+    background-color: aqua;
+        
+}
+#contenido {
+    background-position: center;
+    background: black;
+    overflow: hidden;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 1%;
+      
+    padding-right: 3%;
+        padding-left: 3%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+#pie {
+  background: #f60;
+}
 
