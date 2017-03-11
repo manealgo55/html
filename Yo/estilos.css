@@ -17,6 +17,9 @@
      height: auto;
      overflow: hidden;
      background-image:url("./imagenes/fondos/textura1.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     
     
 }
 #cabecera {
@@ -47,7 +50,6 @@
 .img{
     border-radius:50%;
 }
-
 
 .video-responsive {
 position: relative;
