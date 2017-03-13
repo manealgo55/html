@@ -44,17 +44,15 @@
     padding-bottom: 5%;
     padding-top: 1%;
 }
-#pie {
-  background: #f60;
-}
+
 .img{
     border-radius:50%;
 }
 
 .video-responsive {
 position: relative;
-padding-bottom: 56.25%; /* 16/9 ratio */
-padding-top: 30px; /* IE6 workaround*/
+padding-bottom: 56.25%;
+padding-top: 30px;
 height: 0;
 overflow: hidden;
 }
