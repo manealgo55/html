@@ -1,0 +1,207 @@
+<html>
+
+    <body class="fondo colorletra">
+    <head>
+        <title>Amigos</title>
+         <link  
+                 rel="stylesheet"
+                 type="text/css"
+                 href="./estilos.css">
+        
+        
+        <script type="text/javascript">
+            
+            function cuenta(n){
+                switch(n){
+                    case 1:
+                        document.getElementById("r").style.display="block";    
+                        document.getElementById("o2").style.display="none";
+                        document.getElementById("o3").style.display="none";
+                        document.getElementById("b").style.display="none";
+                         alert("abandona mi sitio");
+                    break;
+                    
+                    case 2:
+                        document.getElementById("r").style.display="none";    
+                        document.getElementById("o2").style.display="block";
+                        document.getElementById("o3").style.display="none";
+                        document.getElementById("b").style.display="none";
+                    break;    
+                        
+                    case 3:
+                        document.getElementById("r").style.display="none";    
+                        document.getElementById("o2").style.display="none";
+                        document.getElementById("o3").style.display="block";
+                        document.getElementById("b").style.display="none";
+                    break;
+                    
+                    case 4:
+                        document.getElementById("r").style.display="none";    
+                        document.getElementById("o2").style.display="none";
+                        document.getElementById("o3").style.display="none";
+                        document.getElementById("b").style.display="block";
+                        alert("No tengo nada contrati, solo no me agrada la banda");
+                    break;
+                        
+                    default:
+                        document.getElementById("r").style.display="none";    
+                        document.getElementById("o2").style.display="none";
+                        document.getElementById("o3").style.display="none";
+                        document.getElementById("b").style.display="none";
+                    break;   
+                }
+                        
+                    
+                
+            }
+            
+            function cuenta3(n1){
+                switch(n1){
+                    case 1:
+                        document.getElementById("g1").style.display="block";
+                        document.getElementById("g2").style.display="none";
+                        document.getElementById("g3").style.display="none";
+                        break;
+                        
+                    case 2:
+                        document.getElementById("g1").style.display="none";
+                        document.getElementById("g2").style.display="block";
+                        document.getElementById("g3").style.display="none";
+                        break;
+                        
+                    case 3:
+                        document.getElementById("g1").style.display="none";
+                        document.getElementById("g2").style.display="none";
+                        document.getElementById("g3").style.display="block";
+                        break;
+                        
+                    default:
+                        document.getElementById("g1").style.display="none";
+                        document.getElementById("g2").style.display="none";
+                        document.getElementById("g3").style.display="none";
+                        
+                        break;
+                        
+                        
+                }
+                
+            }
+            
+
+            
+            
+        </script>    
+    
+        
+        </head>
+    <div id="contenedor">
+        <a href="./Inicio.html"><img src="./imagenes/general/flecha.png" width="70" height="35"></a>
+        <a href="./Inicio.html"><img src="./imagenes/general/inicio2.png" width="50" height="50"></a>
+        <br>
+        <div class="encabezado" align="center">
+        <div id="cabecera">
+            <h1>Encuesta Musical</h1>
+        </div></div>
+        <div id="contenido" >
+            <div>
+            <h1>Escoje un genero musical</h1>
+            <input type="radio"
+               onclick="cuenta(1);"
+               name="m"
+               value="reguetom" >
+        Regueton<br>
+            <input type="radio"
+               onclick="cuenta(2);"
+               name="m"
+               value="rock">
+        Rock<br>
+            <input type="radio"
+               onclick="cuenta(3);"
+               name="m"
+               value="clasica">
+        Clasica<br>
+            <input type="radio"
+               onclick="cuenta(4);"
+               name="m"
+               value="Banda">
+        Banda<br>
+            </div>
+            
+            <div id="o1" style="display:none">
+            <h1>Escoje un artista</h1>
+                        <input type="radio"
+               onclick="cuenta2(1);"
+               name="m"
+               value="maluma">
+        Maluma<br>   
+                <input type="radio"
+               onclick="cuenta2(2);"
+               name="m"
+               value="cnco">
+        CNCO<br> 
+                <input type="radio"
+               onclick="cuenta2(3);"
+               name="m"
+               value="donomar">
+        Don Omar<br> 
+                
+            </div>
+            
+            <div id="o2" style="display:none">
+            <h1>Escoje un artista</h1>
+                        <input type="radio"
+               onclick="cuenta3(1);"
+               name="m"
+               value="panda">
+        PXNDX<br>   
+                <input type="radio"
+               onclick="cuenta3(2);"
+               name="m"
+               value="paramore">
+        Paramore<br> 
+                <input type="radio"
+               onclick="cuenta3(3);"
+               name="m"
+               value="Queen">
+        Queen<br> 
+                
+            </div>
+            
+            <div id="o3" style="display:none">
+            <h1>Escoje un artista</h1>
+                        <input type="radio"
+               onclick="cuenta4(1);"
+               name="m"
+               value="nose">
+        nose<br>   
+                <input type="radio"
+               onclick="cuenta4(2);"
+               name="m"
+               value="nose">
+        nose<br> 
+                <input type="radio"
+               onclick="cuenta4(3);"
+               name="m"
+               value="nose">
+        nose<br> 
+                
+            </div>
+            <div id="g1" style="display:none">
+                <img src="./imagenes/encuesta/panda.gif"  alt="gif de paramore">
+                </div>
+            <div id="g2" style="display:none">
+                <img src="./imagenes/encuesta/paramore.gif"  alt="gif de paramore">
+                </div>
+            <div id="g3" style="display:none">
+                <img src="./imagenes/encuesta/queen.gif"  alt="gif de paramore">
+                </div>
+            <div id="r" style="display:none">
+                <img src="./imagenes/encuesta/regueton.gif"  alt="gif de paramore">
+                </div>
+            <div id="b" style="display:none">
+                <img src="./imagenes/encuesta/banda.gif"  alt="gif de paramore">
+                </div>
+        </div>
+        </div>
+    </body>
+</html>
